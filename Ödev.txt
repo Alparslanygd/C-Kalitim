@@ -1,0 +1,30 @@
+1. C# dilinde kalıtım farklı türlerde uygulanabilmektedir. Ancak multiple inheritance tipinde kalıtım desteği C# yoktur. 
+
+2. Bir sınıftan kalıtım ile devir alma işlemi için : operatörü kullanılmaktadır. 
+
+3. Bir üyenin alt sınıflarda geçersiz kılınabilmesini sağlamak üzere virtual anahtar kelimesi kullanılır. 
+
+4. Bir üyenin alt sınıflarda geçersiz kılınmasını engellemek üzere sealed anahtar kelimesi kullanılır. 
+
+5. Bir üyenin geçersiz kılınmasını sağlamak üzere override anahtar sözcüğü kullanılır. 
+
+6. static metotlar ve fileds üyeleri new anahtar kelimesi ile deklare edilemezler. 
+
+7. Bir sınıftan devir alınarak tanımlanmış olan sınıf; bir başka sınıf tarafından devir alınıyor ise multilevel kalıtım türünün uygulandığı söylenebilir. 
+
+8. Temel sınıfta yer alan bir metot; devir alınan sınıfta gizlenmek isteniyor ise private anahtar kelimesi kullanılmalıdır. 
+
+9. Türetilmiş bir sınıfta temel sınıfta yer alan bir metot çağrılacak ise base anahtar kelimesi kullanılmalıdır. 
+
+10. Türetilmiş bir sınıftan temel sınıfın yapılandırıcı metoduna parametre geçilecek ise base anahtar kelimesi kullanılmalıdır. 
+
+11. abstract sınıflardan new anahtar sözcüğü ile nesne üretmek mümkün değildir. 
+
+12. Gövdesi olmayan ve bir sınıf içerisine yazılan metotlar abstract metot olmalıdır. 
+
+13. Temel sınıfta virtual olarak tanımlanmış olan bir metot; mutlaka devir alınan sınıfta geçersiz kılınmalıdır. 
+
+14. Bir sınıfın kalıtım ile devir alınmasını engellemek için sealed anahtar kelimesi kullanılır. 
+
+15. Sınıf içinde yapılandırıcı metotlar arasında parametre geçişi sağlanacak ise this anahtar sözcüğü kullanılmalıdır.
+
